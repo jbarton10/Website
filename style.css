@@ -1,0 +1,17 @@
+.container-fluid {
+  padding: 0px;
+}
+#top {
+  background-image: url("sunset.jpg");
+  height: 750px;
+  width: 100%;
+  color: rgb(241, 203, 146);
+}
+#navBar {
+  padding-top: 50px;
+  right: 40px;
+}
+#name {
+  padding-top: 250px;
+  font-size: 30px;
+}
