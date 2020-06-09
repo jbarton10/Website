@@ -1,17 +1,49 @@
 .container-fluid {
+  font-family: Titillium;
   padding: 0px;
 }
 #top {
   background-image: url("sunset.jpg");
-  height: 750px;
+  height: 800px;
   width: 100%;
   color: rgb(241, 203, 146);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 #navBar {
-  padding-top: 50px;
+  padding-top: 80px;
   right: 40px;
+  font-size: 20px;
+}
+#nameBlock {
+  padding-top: 170px;
 }
 #name {
-  padding-top: 250px;
-  font-size: 30px;
+  font-size: 40px;
+}
+
+#home:hover {
+  color: rgb(245, 242, 238);
+}
+
+#resume:hover {
+  color: rgb(238, 222, 198);
+}
+
+#portfolio:hover {
+  color: rgb(238, 222, 198);
+}
+#middle {
+  width: 80%;
+  margin: 0px auto;
+  background-color: aqua;
+}
+#about {
+  padding: 50px;
+  text-align: center;
+}
+
+@font-face {
+  font-family: Titillium;
+  src: url(TitilliumWeb-Light.ttf);
 }
