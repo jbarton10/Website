@@ -1,9 +1,17 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
 .container-fluid {
   font-family: Titillium;
   padding: 0px;
 }
 #top {
-  background-image: url("sunset.jpg");
+  background-image: url("assets/sunset.jpg");
   height: 800px;
   width: 100%;
   color: rgb(241, 203, 146);
@@ -31,19 +39,49 @@
 }
 
 #portfolio:hover {
-  color: rgb(238, 222, 198);
+  color: rgb(236, 223, 185);
 }
 #middle {
-  width: 80%;
-  margin: 0px auto;
-  background-color: aqua;
 }
 #about {
+  color: rgb(241, 203, 146);
+  margin-top: 100px;
+  background-color: rgb(82, 4, 54);
   padding: 50px;
   text-align: center;
+  /* width: 70%; */
+  margin: 0px auto;
+}
+#image {
+  height: 180px;
+  width: 250px;
+  border-radius: 50%;
+}
+#footer {
+  height: 25vh;
+  width: 100%;
+  background-color: rgb(237, 84, 43);
+}
+#footerWrapper {
+  text-align: center;
+}
+#linkedIn,
+#gitHub {
+  height: 60px;
+  width: 60px;
+  margin: 1%;
+}
+#headline {
+  margin-bottom: 10%;
+}
+#whatICanDo {
+  margin-bottom: 10%;
+}
+#aboutSummary {
+  margin-bottom: 10%;
 }
 
 @font-face {
   font-family: Titillium;
-  src: url(TitilliumWeb-Light.ttf);
+  src: url(assets/TitilliumWeb-Light.ttf);
 }
