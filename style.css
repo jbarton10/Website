@@ -41,6 +41,12 @@ body {
 #portfolio:hover {
   color: rgb(236, 223, 185);
 }
+
+#headline {
+  width: 40%;
+  margin: 0px auto;
+  margin-top: 1%;
+}
 #middle {
 }
 #about {
@@ -58,7 +64,7 @@ body {
   border-radius: 50%;
 }
 #footer {
-  height: 25vh;
+  height: 18vh;
   width: 100%;
   background-color: rgb(237, 84, 43);
 }
@@ -75,7 +81,24 @@ body {
   margin-bottom: 10%;
 }
 #whatICanDo {
+  width: 80%;
+  margin: 0px auto;
   margin-bottom: 10%;
+}
+.headlines {
+  font-size: 30px;
+  color: rgb(237, 84, 43);
+}
+#whatICanDoImage {
+  width: 250px;
+  height: 160px;
+}
+.imageWrapper {
+  padding-right: 100%;
+}
+.bodies {
+  margin: 0px auto;
+  padding-bottom: 15%;
 }
 #aboutSummary {
   margin-bottom: 10%;
@@ -84,4 +107,30 @@ body {
 @font-face {
   font-family: Titillium;
   src: url(assets/TitilliumWeb-Light.ttf);
+}
+
+.btn-primary {
+  background-color: rgb(245, 242, 238);
+  color: rgb(82, 4, 54);
+}
+
+/* Resume Page */
+
+#resumeTop {
+  background: rgb(82, 4, 54);
+  color: rgb(241, 203, 146);
+}
+#resumeContent {
+  text-align: center;
+  margin: 0px auto;
+  padding-bottom: 10%;
+}
+.navBarNotHome {
+  padding-top: 80px;
+  right: 40px;
+  font-size: 20px;
+  background-color: rgb(237, 84, 43);
+}
+#nameBlockResume {
+  padding-top: 5%;
 }
