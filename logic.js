@@ -10,3 +10,10 @@ $("#linkedIn").on("click", function () {
 $("#gitHub").on("click", function () {
   window.open("https://github.com/jbarton10");
 });
+
+/* 
+https://github.com/jbarton10/Blackjack
+https://alpha-project-2.herokuapp.com/
+https://ecobourne.herokuapp.com/
+
+*/
