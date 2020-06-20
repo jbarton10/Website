@@ -13,20 +13,21 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 //Route for home page
-
 app.get("/", function (req, res) {
   res.sendFile(path.join(__dirname, "./index.html"));
 });
 
-//Route for survey page
+//Route for Resume page
 app.get("/resume", function (req, res) {
   res.sendFile(path.join(__dirname, "./resume.html"));
 });
-//Route for survey page
+
+//Route for Portfolio page
 app.get("/portfolio", function (req, res) {
   res.sendFile(path.join(__dirname, "./portfolio.html"));
 });
 
+//Routes for different
 app.get("/style.css", function (req, res) {
   res.sendFile(path.join(__dirname, "./style.css"));
 });

@@ -6,6 +6,9 @@ body {
   padding: 0px;
   overflow-x: hidden;
 }
+a {
+  color: inherit;
+}
 .container-fluid {
   font-family: Titillium;
   padding: 0px;
@@ -32,6 +35,9 @@ body {
 
 #home:hover {
   color: rgb(245, 242, 238);
+}
+a:hover {
+  color: inherit;
 }
 
 #resume:hover {
